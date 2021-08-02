@@ -16,8 +16,6 @@ daysEl.innerHTML = days;
 hoursEl.innerHTML = hours;
 minutesEl.innerHTML = minutes;
 secondsEl.innerHTML = seconds;
-
-
 }
 countdown();
 setInterval( countdown, 1000);
